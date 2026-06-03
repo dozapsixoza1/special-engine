@@ -4,10 +4,10 @@ from dataclasses import dataclass
 @dataclass
 class Config:
     # === ВСТАВЬ СВОИ ТОКЕНЫ СЮДА ===
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-    CRYPTO_PAY_TOKEN: str = os.getenv("CRYPTO_PAY_TOKEN", "YOUR_CRYPTOBOT_API_TOKEN_HERE")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8404617981:AAFN-gvSOUxIFAB9BAwUJfMM7aoq2VWIfLk")
+    CRYPTO_PAY_TOKEN: str = os.getenv("CRYPTO_PAY_TOKEN", "591413:AAuG2K1PsJVsJMTbrMWJbYuGn8Muv6jruuL")
     WEBAPP_URL: str = os.getenv("WEBAPP_URL", "https://your-domain.com")  # URL где хостится webapp
-    ADMIN_IDS: list = None
+    ADMIN_IDS: list = 8526401545
     DB_PATH: str = "casino.db"
 
     # Минимальные/максимальные суммы
